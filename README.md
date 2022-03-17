@@ -1,7 +1,10 @@
 # Ephem
 
 Ephem is a fork of EFFE (which is itself a fork of sweph4ruby) that simply makes it into an actual gem with a gemspec, etc.
+
+====
 I may add some other features over time, feel free to do so also.
+
 ====
 EFFE
 UNMAINTAINED
@@ -9,6 +12,12 @@ UNMAINTAINED
 by Christian Carter
 
 Make sweph4ruby bearable, and then some
+
+===Examples====
+christian = Time.utc(1991,7,27,22,30)
+effe = Effe.new(christian)
+
+Effe.chart_bodies
 
 sweph4ruby
 ==========

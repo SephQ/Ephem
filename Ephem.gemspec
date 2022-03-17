@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require_relative "lib/Ephem/version"
+require_relative "lib/ephem/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "Ephem"
+  spec.name = "ephem"
   spec.version = Ephem::VERSION
   spec.authors = ["Christian Carter, Pedro Santos, Seph Q"]
   spec.email = ["aspie.astrologer@gmail.com"]
