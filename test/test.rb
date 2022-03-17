@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'lib/sweph4ruby'
+require_relative 'lib/sweph4ruby'
 require 'test/unit'
 
 class Rsweph_test < Test::Unit::TestCase

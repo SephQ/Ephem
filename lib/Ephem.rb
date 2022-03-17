@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 require_relative "ephem/version"
-require 'ext/sweph4ruby'
+require_relative 'ext/sweph4ruby'
 $:.unshift(File.dirname(__FILE__))
-require 'effe/bodies'
+require 'ephem/bodies'
 
 class Ephem
 	ROOT = File.dirname(File.expand_path(__FILE__)) + '/../'

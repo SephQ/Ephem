@@ -1,4 +1,4 @@
-require 'ext/sweph4ruby'
+require_relative 'ext/sweph4ruby'
 
 # Encapsulates the functionality provided by sweph4ruby extension in a ruby class
 class Rsweph
@@ -80,19 +80,19 @@ class Rsweph
 	# Calculates the position of houses given a julian day, location (longitude, latitude) and the house system "PKORCAEVXHTBG".
 	#
 	# * house system allowed values and meanings are:
-	# * ‘P’               Placidus
-	# * ‘K’               Koch
-	# * ‘O’              Porphyrius
-	# * ‘R’               Regiomontanus
-	# * ‘C’              Campanus
-	# * ‘A’ or ‘E’      Equal (cusp 1 is Ascendant)
-	# * ‘V’               Vehlow equal (Asc. in middle of house 1)
-	# * ‘X’               axial rotation system
-	# * ‘H’              azimuthal or horizontal system
-	# * ‘T’               Polich/Page (“topocentric” system)
-	# * ‘B’               Alcabitus
-	# * ‘G’              Gauquelin sectors
-	# * ‘M’              Morinus
+	# * ï¿½Pï¿½               Placidus
+	# * ï¿½Kï¿½               Koch
+	# * ï¿½Oï¿½              Porphyrius
+	# * ï¿½Rï¿½               Regiomontanus
+	# * ï¿½Cï¿½              Campanus
+	# * ï¿½Aï¿½ or ï¿½Eï¿½      Equal (cusp 1 is Ascendant)
+	# * ï¿½Vï¿½               Vehlow equal (Asc. in middle of house 1)
+	# * ï¿½Xï¿½               axial rotation system
+	# * ï¿½Hï¿½              azimuthal or horizontal system
+	# * ï¿½Tï¿½               Polich/Page (ï¿½topocentricï¿½ system)
+	# * ï¿½Bï¿½               Alcabitus
+	# * ï¿½Gï¿½              Gauquelin sectors
+	# * ï¿½Mï¿½              Morinus
 	#
 	# Returns an array of 21 floats containing:
 	# *	[0] = 0

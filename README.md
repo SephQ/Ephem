@@ -2,11 +2,10 @@
 
 Ephem is a fork of EFFE (which is itself a fork of sweph4ruby) that simply makes it into an actual gem with a gemspec, etc.
 
-====
 I may add some other features over time, feel free to do so also.
 
-====
 EFFE
+====
 UNMAINTAINED
 
 by Christian Carter
@@ -35,7 +34,13 @@ Swiss Ephemeris is a compression of the JPL-Ephemeris DE406 that can be found he
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'Ephem'
+gem 'ephem'
+```
+
+or (until this is shared on [rubygems.org](https://rubygems.org))
+
+```ruby
+gem 'ephem', :git => 'https://github.com/SephQ/Ephem.git'
 ```
 
 And then execute:
